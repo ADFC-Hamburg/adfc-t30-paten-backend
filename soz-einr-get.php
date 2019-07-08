@@ -20,18 +20,29 @@ $okay=array(
     't50' => '1',
     'angrenzendeStrassen' => array(
         array(
+            'id' => 91,
             'name' => 'Beispielstraße',
             'von' => '10',
             'bis' => '20',
             'haupteingang' => '1',
             'status' => '3',
+            'spurigkeit' => '1',
+            'anmerkung_bus' => '',
+            'anemerkung' => 'Veloroute 5',
+            'busverkehr' => '1',
         ),
         array(
+            'id' => 117,
             'name' => 'Beispielweg',
             'von' => '1a',
             'bis' => '3c',
             'haupteingang' => '0',
             'status' => '3',
+            'spurigkeit' => '2',
+            'anemerkung' => 'Veloroute 5',
+            'anmerkung_bus' => 'Hier ist im Berufsverkehr Dauerstau',
+            'buslinien' => '110,112',
+            'busverkehr' => '2',
         )
     )
 );
