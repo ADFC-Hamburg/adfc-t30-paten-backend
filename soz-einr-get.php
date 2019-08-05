@@ -18,6 +18,7 @@ $okay=array(
     'zusatz' => '',
     'telefon' => '',
     't50' => '1',
+    'keineWeiterenStrassen' => true,
     'angrenzendeStrassen' => array(
         array(
             'id' => 91,
